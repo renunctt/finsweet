@@ -1,6 +1,6 @@
 <script lang="ts">
-  import BaseButton from './ui/BaseButton.svelte'
-  import NavItems from './ui/NavItems.svelte'
+  import BaseButton from '../components/ui/BaseButton.svelte'
+  import NavItems from '../components/ui/NavItems.svelte'
 </script>
 
 <header class="header">
