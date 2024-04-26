@@ -19,6 +19,9 @@ module.exports = {
     es2017: true,
     node: true
   },
+  rules: {
+    semi: ['off']
+  },
   overrides: [
     {
       files: ['*.svelte'],
@@ -28,4 +31,4 @@ module.exports = {
       }
     }
   ]
-};
+}
